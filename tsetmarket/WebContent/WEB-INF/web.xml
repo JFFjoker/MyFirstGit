@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>tsetmarket</display-name>
+	<servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<servlet-class>com.market.servlet.LoginServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>loginServlet</servlet-name>
+	  <url-pattern>/loginServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>pwdServlet</servlet-name>
+  	<servlet-class>com.market.servlet.PwdServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>pwdServlet</servlet-name>
+	  <url-pattern>/pwdServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>exitServlet</servlet-name>
+  	<servlet-class>com.market.servlet.ExitServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>exitServlet</servlet-name>
+	  <url-pattern>/exitServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>adminServlet</servlet-name>
+  	<servlet-class>com.market.servlet.AdminServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>adminServlet</servlet-name>
+	  <url-pattern>/adminServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>userServlet</servlet-name>
+  	<servlet-class>com.market.servlet.UserServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>userServlet</servlet-name>
+	  <url-pattern>/userServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>billServlet</servlet-name>
+  	<servlet-class>com.market.servlet.BillServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>billServlet</servlet-name>
+	  <url-pattern>/billServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>billInfoServlet</servlet-name>
+  	<servlet-class>com.market.servlet.BillInfoServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>billInfoServlet</servlet-name>
+	  <url-pattern>/billInfoServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>proServlet</servlet-name>
+  	<servlet-class>com.market.servlet.ProServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>proServlet</servlet-name>
+	  <url-pattern>/proServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>proInfoServlet</servlet-name>
+  	<servlet-class>com.market.servlet.ProInfoServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>proInfoServlet</servlet-name>
+	  <url-pattern>/proInfoServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>proSerchServlet</servlet-name>
+  	<servlet-class>com.market.servlet.ProSerchServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>proSerchServlet</servlet-name>
+	  <url-pattern>/proSerchServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+  	<servlet-name>billSerchServlet</servlet-name>
+  	<servlet-class>com.market.servlet.BillSerchServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	  <servlet-name>billSerchServlet</servlet-name>
+	  <url-pattern>/billSerchServlet</url-pattern>
+  	</servlet-mapping>
+  	<!-- 过滤器 -->
+  	<!-- 用户登录过滤器 -->
+  	 <!-- <filter>  
+        <filter-name>loginFilter</filter-name>  
+        <filter-class>com.market.filter.LoginFilter</filter-class>  
+    </filter>  
+  
+    <filter-mapping>  
+        <filter-name>loginFilter</filter-name>  
+        <url-pattern>/welcome.jsp</url-pattern>
+    </filter-mapping>   -->
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
